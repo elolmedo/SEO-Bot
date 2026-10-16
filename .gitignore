@@ -1,0 +1,28 @@
+# Environment variables and secrets
+.env
+*.env
+*.json
+!gcp-key.json.template
+
+# Python build / cache / environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+venvBot/
+ENV/
+
+# Temporary generated images and uploads
+images/*.png
+!images/.gitkeep
+/tmp/
+*.tmp
+
+# IDEs and OS files
+.idea/
+.vscode/
+*.swp
+.DS_Store
